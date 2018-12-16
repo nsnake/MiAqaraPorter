@@ -26,11 +26,17 @@
 如需知道具体连入方式可以参考绿米网关局域网通信协议
 
 # 使用方法:
+
 下载代码后修改MiAqaraPorter.js
+
 修改porterTarget中的相关配置为你自己接受数据的服务器地址
+
 修改event中的方法，按需来获取相关设备的信息
+
 目前只实现了米家温湿度传感器（sensor_ht）的消息触发，有其它需要的设备可以修改handleData部分的代码实现接入。
 
 # 其它
 
-本项目参考了[mi-aqara-sdk](https://github.com/zzyss86/mi-aqara-sdk)如果机器环境可以在node6以上版本执行的话，可以使用该sdk去实现更强的功能。
+本项目参考了[mi-aqara-sdk](https://github.com/zzyss86/mi-aqara-sdk)
+
+如果机器环境可以在node6以上版本执行的话，可以使用该sdk去实现更强的功能。
